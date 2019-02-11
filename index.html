@@ -27,6 +27,15 @@ font-weight: lighter;
 font-size: 40px;
 text-align: center;
   }
+  main {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  @media (min-width:40.06rem) and (max-width:52rem) {
+    main {
+      max-width: 700px;
+    }
+  }
   body {
     background-color: white;
   }
@@ -37,7 +46,9 @@ text-align: center;
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 </head>
   <body>
+    <main>
     <h1>Welcome to my <strong>AMP</strong> website</h1>
-    <amp-img src="creative.jpg" alt="creative" height="640" width="640"></amp-img>
+    <amp-img src="creative.jpg" alt="creative" height="640" width="640" layout="responsive"></amp-img>
+</main>
   </body>
 </html>
