@@ -31,13 +31,45 @@ text-align: center;
     max-width: 90%;
     margin: 0 auto;
   }
-  @media (min-width:40.06rem) and (max-width:52rem) {
+  @media (min-width:2) and (max-width:800px) {
     main {
       max-width: 700px;
     }
+    .link-icons a amp-img {
+      width: 50%;
+      height: auto;
+    }
+    main .post-img {
+      max-width: 800px;
+      height: auto;
+    }
+  }
+  @media (min-width:800px) {
+
+    .link-icons a amp-img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  .link-icons {
+    float: right;
+    padding-top: 20px;
+  }
+  .link-icons a {
+    display: inline-block;
+  }
+  main .post-img {
+    width: 100%;
+    height: auto;
+  }
+  .link-icons a amp-img {
+    width: 16px;
+    height: 16px;
   }
   body {
     background-color: white;
+    font-family: "Roboto",Helvetica,Verdana,sans-serif;
+    color: #333;
   }
   amp-img {
     text-align: center;
@@ -47,8 +79,18 @@ text-align: center;
 </head>
   <body>
     <main>
-    <h1>Welcome to my <strong>AMP</strong> website</h1>
-    <amp-img src="creative.jpg" alt="creative" height="640" width="640" layout="responsive"></amp-img>
+    <h1>Welcome to my <strong>AMP</strong> blog</h1>
+    <div class="post-img"><a href="http://nirit-nagar.com" target="_blank"><amp-img src="img/creative.jpg" alt="creative" height="500" width="2000" layout="responsive"></amp-img></a></div>
+    <div class="link-icons">
+    <a href="http://nirit-nagar.com" target="_blank"><amp-img src="img/link.png" alt="Open Portfolio" height="32" width="32" layout="responsive"></amp-img></a>
+    <a href="mailto:goto@nirit-nagar.com" target="_blank"><amp-img src="img/contact.png" alt="Contact" height="32" width="32" layout="responsive"></amp-img></a>
+    </div>
+    <h2>Check out my portfolio</h2>
+    <p>
+      Hi! I have more then 8 years experience transforming visual concepts into a working products using adobe softwares and development tools.
+      In the portfolio you can find various projects in the spectrum of Graphic Design and Frontend Developing.
+    </p>
+    <a href="http://nirit-nagar.com" target="_blank"></a>
 </main>
   </body>
 </html>
