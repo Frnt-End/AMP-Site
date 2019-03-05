@@ -3,14 +3,15 @@
 
 # AMP Web Page
 
-[Link to the project]
-(https://frnt-end.github.io/AMP-Site/)
+[Watch the page](
+https://frnt-end.github.io/AMP-Site/)
+
 
 What is AMP:
 * Short for Accelerated Mobile Pages
 * The Accelerated Mobile Pages (AMP) Project is an open source initiative that makes it easy for publishers to create mobile-friendly content.
-* [Link to the AMP project]
-(https://www.ampproject.org/)
+* [Go to AMP project](
+https://www.ampproject.org/)
 
 
 
